@@ -15,6 +15,9 @@ public class Exercicio02 {
 		double area = pi * (raio * raio);
 
 		System.out.printf("A=%.4f%n", area);
+
+		scanner.close();
+
 	}
 
 }

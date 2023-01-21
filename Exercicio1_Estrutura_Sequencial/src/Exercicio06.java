@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercicio6 {
+public class Exercicio06 {
 
 	public static void main(String[] args) {
 
@@ -36,6 +36,7 @@ public class Exercicio6 {
 		System.out.printf("QUADRADO: %.3f%n", areaQuad);
 		System.out.printf("RETANGULO: %.3f%n", areaRet);
 
+		scanner.close();
 	}
 
 }

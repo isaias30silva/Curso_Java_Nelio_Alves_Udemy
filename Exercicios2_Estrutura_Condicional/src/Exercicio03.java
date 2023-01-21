@@ -8,15 +8,14 @@ public class Exercicio03 {
 
 		int A = scanner.nextInt();
 		int B = scanner.nextInt();
-		int C = scanner.nextInt();
-		int D = scanner.nextInt();
 
-		int diferenca = (A * B - C * D);
-
-		System.out.println("DIFERENCA = " + diferenca);
-
+		if (A % B == 0 || B % A == 0) {
+			System.out.println("Sao Multiplos");
+		} else {
+			System.out.println("Nao sao Multiplos");
+		}
+		
 		scanner.close();
-
 	}
 
 }

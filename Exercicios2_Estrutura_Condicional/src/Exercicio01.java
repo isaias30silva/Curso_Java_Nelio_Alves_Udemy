@@ -6,10 +6,13 @@ public class Exercicio01 {
 
 		Scanner scanner = new Scanner(System.in);
 
-		int num1 = scanner.nextInt();
-		int num2 = scanner.nextInt();
+		int num = scanner.nextInt();
 
-		System.out.println("SOMA = " + (num1 + num2));
+		if (num < 0) {
+			System.out.println("NEGATIVO");
+		} else {
+			System.out.println("NAO NEGATIVO");
+		}
 
 		scanner.close();
 	}

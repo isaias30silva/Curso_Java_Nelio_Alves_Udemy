@@ -14,7 +14,9 @@ public class Exercicio04 {
 
 		double salary = hours * perHour;
 
-		System.out.printf("NUMBER = " + number + "\nSALARY = U$ %.2f%n ", salary); 
+		System.out.printf("NUMBER = " + number + "\nSALARY = U$ %.2f%n ", salary);
+
+		scanner.close();
 	}
 
 }
